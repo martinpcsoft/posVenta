@@ -7,14 +7,14 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>POS VENTA PHP</title>
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/dataTables.bootstrap4.min.css" rel="stylesheet" />
-        <script src="js/all.min.js" ></script>
+        <link href="<?php echo base_url();?>/css/styles.css" rel="stylesheet" />
+        <link href="<?php echo base_url();?>/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+        <script src="<?php echo base_url();?>/js/all.min.js" ></script>
     </head>
 
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">POS - VENTA</a>
+            <a class="navbar-brand" href="index.html">SISTEMA - ICARUS</a>
             <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search
             <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -53,7 +53,7 @@
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="layout-static.html">Productos</a>
                                     <a class="nav-link" href="<?php echo base_url();?>/unidades">Unidades</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Categorías</a>
+                                    <a class="nav-link" href="<?php echo base_url();?>/categorias">Categorías</a>
                                 </nav>
                             </div>
                             

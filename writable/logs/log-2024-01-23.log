@@ -1,0 +1,47 @@
+CRITICAL - 2024-01-23 00:07:57 --> Error: Class "App\Models\CategoriasModel" not found
+in APPPATH\Controllers\Categorias.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Categorias->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 00:09:41 --> Error: Class "App\Models\CategoriasModel" not found
+in APPPATH\Controllers\Categorias.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Categorias->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 00:10:37 --> Error: Class "App\Models\CategoriasModel" not found
+in APPPATH\Controllers\Categorias.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Categorias->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 00:10:43 --> Error: Class "App\Models\CategoriasModel" not found
+in APPPATH\Controllers\Categorias.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Categorias->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 00:12:08 --> Error: Class "App\Models\CategoriasModel" not found
+in APPPATH\Controllers\Categorias.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Categorias->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 00:12:16 --> Error: Class "App\Models\CategoriasModel" not found
+in APPPATH\Controllers\Categorias.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Categorias->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-23 00:34:16 --> ErrorException: Undefined array key "nombre_corto"
+in APPPATH\Views\categorias\editar.php on line 17.
+ 1 APPPATH\Views\categorias\editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre_corto"', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\categorias\\editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\categorias\\editar.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('categorias/editar', [], true)
+ 5 APPPATH\Controllers\Categorias.php(60): view('categorias/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Categorias->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
