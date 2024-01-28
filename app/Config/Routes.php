@@ -29,3 +29,12 @@ $routes->get('categorias/eliminar/(:num)','Categorias::eliminar/$1');
 $routes->get('categorias/reingresar/(:num)','Categorias::reingresar/$1');
 $routes->post('categorias/actualizar', 'Categorias::actualizar');
 
+// PRODUCTOS //
+$routes->get('productos','Productos::index');
+$routes->get('productos/nuevo','Productos::nuevo');
+$routes->post('productos/insertar','Productos::insertar');
+$routes->get('productos/eliminados','Productos::eliminados');
+$routes->get('productos/editar/(:num)','Productos::editar/$1');
+$routes->get('productos/eliminar/(:num)','Productos::eliminar/$1');
+$routes->get('productos/reingresar/(:num)','Productos::reingresar/$1');
+$routes->post('productos/actualizar', 'Productos::actualizar');

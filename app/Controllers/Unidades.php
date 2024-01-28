@@ -3,12 +3,15 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use App\Models\UnidadesModel;
 
+
 class Unidades extends BaseController
 {
     protected $unidades;
     public function __construct()
     {
         $this->unidades = new UnidadesModel();
+       
+        
 
     }
 
@@ -44,11 +47,21 @@ class Unidades extends BaseController
 
     public function insertar()
     {
-        $this->unidades->save(['nombre' => $this->request->getPOST('nombre'),
-        'nombre_corto' => $this->request->getPOST('nombre_corto')]);
-        return redirect()->to(base_url().'/unidades');
-    }
+        if($this->request->getMethod() == "post" && $this->validate(['nombre' =>'required','nombre_corto'=>'required'])) { 
 
+        
+        $this->unidades->save(['nombre' => $this->request->getPOST('nombre'),'nombre_corto' =>
+        $this->request->getPOST('nombre_corto')]);
+       
+
+        return redirect()->to(base_url().'/unidades');
+        } else {
+            $data  = ['titulo' =>'Agregar unidad','validation'=>$this->validator];
+            echo view('header');
+            echo view('unidades/nuevo', $data);
+            echo view('footer');
+        }
+    }
     
     public function editar($id)
     {

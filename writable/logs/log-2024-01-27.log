@@ -1,0 +1,436 @@
+CRITICAL - 2024-01-27 16:55:05 --> Error: Class "Config\Service" not found
+in APPPATH\Views\unidades\nuevo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('unidades/nuevo', [], true)
+ 4 APPPATH\Controllers\Unidades.php(41): view('unidades/nuevo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Unidades->nuevo()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 19:58:33 --> Error: Class "App\Controllers\UnidadesModel" not found
+in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:00:28 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:00:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:00:54 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:02:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:02:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:02:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:02:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:02:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:02:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:02:46 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:06:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:06:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:06:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:06:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:06:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:06:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:06:40 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:19:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:19:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:19:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:19:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:19:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:19:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:19:15 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:23:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:23:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:23:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:23:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:23:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:23:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:23:32 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:25:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:25:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:25:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:25:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:26:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:26:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:26:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:26:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:26:06 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:26:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:26:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:26:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:26:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:26:54 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:29:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:29:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:29:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:29:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:29:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:29:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:29:22 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:42:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:42:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:42:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:42:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:42:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-27 20:42:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 20:42:51 --> ErrorException: Undefined variable $unidades
+in APPPATH\Views\productos\nuevo.php on line 26.
+ 1 APPPATH\Views\productos\nuevo.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $unidades', 'C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\pos-php\\app\\Views\\productos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('productos/nuevo', [], true)
+ 5 APPPATH\Controllers\Productos.php(49): view('productos/nuevo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Productos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
