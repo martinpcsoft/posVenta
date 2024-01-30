@@ -2,5 +2,5 @@
     <main>
       <div class="container-fluid">
           <h1>BIENVENIDOS AL SISTEMA </h1>
-          <img  style="width 200px"src="../public/assets/img/fondo.jpg">
+          <img  class="img-bienvenido"src="../public/assets/img/ojo.jpg"  width="480" height="380">
     </main>

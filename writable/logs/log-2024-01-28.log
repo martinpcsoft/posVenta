@@ -1025,3 +1025,23 @@ WARNING - 2024-01-28 15:55:33 --> [DEPRECATED] Creation of dynamic property App\
  2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
  3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-28 15:58:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-28 15:58:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-28 15:58:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$unidades is deprecated in APPPATH\Controllers\Productos.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-28 15:58:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Productos::$categorias is deprecated in APPPATH\Controllers\Productos.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Productos->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

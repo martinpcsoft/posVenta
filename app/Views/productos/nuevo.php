@@ -29,11 +29,17 @@
                                    <?php  } ?>
                                    
                            </select>
+
                        </div>
                        <div class="col-12 col-sm-6">
                             <lablel>Categorias </lablel>
                             <select class="form-control" id="id_categoria" name="id_categoria" required>
                               <option value=""> Seleccionar categoria</option>
+                              <?php  foreach($categorias as $categoria) { ?>
+                                   <option value="<?php echo $categoria['id']?>">
+                                                  <?php echo $categoria['nombre'];?>
+                                   </option>  
+                                   <?php  } ?>
                                   
                                    </select>
                        </div>
