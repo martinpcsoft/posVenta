@@ -22,7 +22,7 @@ class Productos extends BaseController
         $data  = ['titulo' =>'Productos', 'datos' => $productos];
 
         echo view('header');
-        echo view('productos/productos', $data);
+        echo view('productos/productos',$data);
         echo view('footer');
 
 
@@ -42,7 +42,7 @@ class Productos extends BaseController
     {
         $unidades = $this->unidades->where('activo',1)->findAll();
         $categorias = $this->categorias->where('activo',1)->findAll();
-        $data = ['titulo'=> 'Agregar producto','unidades'=> $unidades, 'categorias'=> $categorias];
+        $data = ['titulo'=>'Agregar producto','unidades'=> $unidades,'categorias'=> $categorias];
 
         echo view('header');
         echo view('productos/nuevo', $data);
@@ -51,22 +51,28 @@ class Productos extends BaseController
 
     public function insertar()
     {
-        if($this->request->getMethod() == "post" && $this->validate(['nombre' =>'required','nombre_corto'=>'required'])) { 
+        if($this->request->getMethod() == "post") { 
 
-        
-        $this->productos->save(['nombre' => $this->request->getPOST('nombre'),'nombre_corto' =>
-        $this->request->getPOST('nombre_corto')]);
+        $this->productos->save([
+            'codigo' => $this->request->getPost('codigo'),
+            'nombre' =>$this->request->getPost('nombre'),
+            'precio_venta	' =>$this->request->getPost('precio_venta'),
+            'precio_compra' =>$this->request->getPost('precio_compra'),
+            'stock_minimo' =>$this->request->getPost('stock_minimo'),
+            'inventariable' =>$this->request->getPost('inventariable'),
+            'id_unidad' =>$this->request->getPost('id_unidad'),
+            'id_categoria' =>$this->request->getPost('id_categoria')]);
        
-
-        return redirect()->to(base_url().'/productos');
+        return redirect()->to(base_url(). '/productos');
         } else {
-            $data  = ['titulo' =>'Agregar productos','validation'=>$this->validator];
+            $data  = ['titulo' =>'Agregar producto','validation'=>$this->validator];
+
             echo view('header');
             echo view('productos/nuevo', $data);
             echo view('footer');
         }
     }
-    
+
     public function editar($id)
     {
         $productos = $this->productos->where('id',$id)->first();

@@ -46,7 +46,7 @@ class Categorias extends BaseController
 
     public function insertar()
     {
-        $this->categorias->save(['nombre' => $this->request->getPOST('nombre')]);
+        $this->categorias->save(['nombre' => $this->request->getPost('nombre')]);
         return redirect()->to(base_url().'/categorias');
     }
 

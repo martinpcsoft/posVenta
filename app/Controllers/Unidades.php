@@ -11,8 +11,6 @@ class Unidades extends BaseController
     {
         $this->unidades = new UnidadesModel();
        
-        
-
     }
 
     public function index($activo = 1)
@@ -23,8 +21,6 @@ class Unidades extends BaseController
         echo view('header');
         echo view('unidades/unidades', $data);
         echo view('footer');
-
-
     }
 
     public function eliminados($activo = 0)
@@ -39,6 +35,7 @@ class Unidades extends BaseController
 
     public function nuevo()
     {
+       
         $data  = ['titulo' =>'Agregar unidad'];
         echo view('header');
         echo view('unidades/nuevo', $data);
@@ -47,14 +44,12 @@ class Unidades extends BaseController
 
     public function insertar()
     {
-        if($this->request->getMethod() == "post" && $this->validate(['nombre' =>'required','nombre_corto'=>'required'])) { 
 
-        
-        $this->unidades->save(['nombre' => $this->request->getPOST('nombre'),'nombre_corto' =>
-        $this->request->getPOST('nombre_corto')]);
-       
-
-        return redirect()->to(base_url().'/unidades');
+        if ($this->request->getMethod() == "Post" && $this->validate(['nombre' =>'required',
+        'nombre_corto'=>'required'])) { 
+        $this->unidades->save(['nombre' => $this->request->getPost('nombre'),'nombre_corto' =>
+        $this->request->getPost('nombre_corto')]);
+        return redirect()->to(base_url(). '/unidades');
         } else {
             $data  = ['titulo' =>'Agregar unidad','validation'=>$this->validator];
             echo view('header');
